@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import RegNavigation from './RegNavigation'
 
 const ViewRegistration = () => {
     const [data,changeData]=useState([])
@@ -21,6 +22,7 @@ const ViewRegistration = () => {
 
   return (
     <div>
+        <RegNavigation/>
         <div className="container mt-4">
         <h2 className="text-center mb-4">View All Registrations</h2>
 
