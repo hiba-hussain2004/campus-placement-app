@@ -1,11 +1,12 @@
 import React from 'react'
+import RegNavigation from './RegNavigation'
 
 const AddRegistration = () => {
     return (
         <div>
-
+            <RegNavigation/>
             <div className="container">
-                <h4>REGISTRATION FORM</h4>
+                
                 <div className="row">
                     <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                         <div className="row g-3">
